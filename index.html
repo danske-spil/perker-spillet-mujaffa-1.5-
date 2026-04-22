@@ -6,28 +6,34 @@
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
     <style>
-        body {
+        html, body {
             margin: 0;
-            background-color: black; /* sort baggrund */
-            color: white; /* hvid tekst */
+            padding: 0;
+            background-color: black;
+            color: white;
+            height: 100%;
+        }
+
+        body {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
         }
 
         h1 {
             font-family: "Comic Sans MS", cursive, sans-serif;
-            color: white; /* hvid titel */
             margin-bottom: 20px;
+        }
+
+        embed {
+            display: block;
         }
     </style>
 </head>
 
 <body>
     <h1>Perkerspillet</h1>
-
-    <embed src="perkerspillet.swf" width="800" height="600"></embed>
+    <embed src="perkerspillet.swf" width="800" height="600">
 </body>
 </html>
