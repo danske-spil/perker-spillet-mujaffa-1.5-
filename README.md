@@ -13,3 +13,4 @@ Dette projekt har til formål at bevare og gøre ældre Flash-spil tilgængelige
 
 **Note:**
 Spillet er et arkiveret Flash-spil, og der kan forekomme mindre fejl afhængigt af Ruffle-kompatibilitet.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5fc741fa-67e1-4ae6-970c-29dda8399b2b" />
